@@ -1,0 +1,44 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AngularJS",
+		"AutoFileName",
+		"Babel",
+		"ChineseLocalizations",
+		"Color Highlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"IMESupport",
+		"List LESS Variables",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"MarkdownTOC",
+		"Material Nil",
+		"Materialize",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"PackageResourceViewer",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeServer",
+		"Table Editor",
+		"Terminal",
+		"Theme - El Capitan",
+		"Theme - Piatto",
+		"Theme - Soda",
+		"Theme - Sodarized",
+		"Vue Syntax Highlight",
+		"Xtemplate"
+	]
+}

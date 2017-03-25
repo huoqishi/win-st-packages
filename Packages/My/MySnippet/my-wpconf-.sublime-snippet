@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+module.exports = {
+    entry: ${1:'./index.js'},
+    output: {
+        path: __dirname,
+        filename: '${2:bundle.js}'
+    },
+    module: {
+        loaders: [${3}]
+    }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>wpconf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

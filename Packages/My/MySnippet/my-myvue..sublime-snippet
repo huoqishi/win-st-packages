@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+<div id="app"></div>
+  <script src="node_modules/vue/dist/vue.js"></script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        ${1:}
+      }
+    })
+  </script>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>myvue</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.html</scope>
+</snippet>

@@ -1,0 +1,22 @@
+{
+	"color_scheme": "Packages/Theme - Piatto/Piatto Light.tmTheme",
+	"font_face": "consolas",
+	"font_size": 15,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Color Highlighter",
+		"SublimeCodeIntel",
+		"Vintage"
+	],
+	"index_files": false,
+	"open_files_in_new_window": false,
+	"preview_on_click": false,
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"tab_size": 2,
+	"theme": "Piatto Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
+}

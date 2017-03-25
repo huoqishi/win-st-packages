@@ -1,0 +1,17 @@
+{
+  "extensions":
+  [
+    "mdown",
+    "txt",
+    "md"
+  ],
+  "color_scheme": "Packages/My/Sepiarize.tmTheme",
+  "wrap_width": "auto",
+  "draw_centered": false,
+  "line_numbers": false,
+  "highlight_line": true,
+  "line_padding_top": 2,
+  "line_padding_bottom": 2,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+}

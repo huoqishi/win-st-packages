@@ -1,0 +1,12 @@
+{
+"cmd": ["node", "$file"],
+"selector": "source.js",
+"encoding": "utf-8",
+"windows":{
+  "cmd":["node", "$file"]
+},
+"osx":{
+  // "cmd":["/Users/isc/.nvm/versions/node/v6.3.0/bin/node", "$file"]
+  "cmd":["node", "$file"]
+}
+}

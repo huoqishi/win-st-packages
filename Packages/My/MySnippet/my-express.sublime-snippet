@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+// body-parser用来自动接收post 请求参数，并转换为对象,赋值给req.body
+const bodyParser = require('body-parser')
+
+const express = require('express')
+const app  = express()
+
+// 自动根据用户请求的地址从www目录读取对应的文件，然后响应给浏览器
+app.use(express.static('./www'))
+
+// application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded())
+
+// application/json
+app.user(bodyParser.json())
+
+app.listen(3000)
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>express</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

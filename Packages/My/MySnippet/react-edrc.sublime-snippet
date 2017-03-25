@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+export default class ${1:App} extends React.Component{
+  render(){
+    return (
+      ${2:}
+      )
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>edrc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

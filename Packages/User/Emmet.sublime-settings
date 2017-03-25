@@ -1,0 +1,12 @@
+{
+  // Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
+  "snippets": {
+        "html": {
+            "abbreviations": {
+                "example": "<div class='example' title='Custom element example'>",
+                "mydoc": "html[lang='zh-CN']>(head>meta[charset='UTF-8']+title{${1:文档标题}})+body{${2:}}",
+                "!!": "!!!+mydoc[lang='zh-Hans']"
+            }
+        }
+    }
+}

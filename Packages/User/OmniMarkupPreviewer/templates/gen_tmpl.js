@@ -1,0 +1,11 @@
+const fs = require('fs')
+fs.readFile('./my-md-export.tpl','utf8', (err, data) => {
+    const mdcss = fs.readFileSync('../public/my-md.css','utf8')
+    const cusjs = fs.readFileSync('../public/custom.js','utf8')
+    const ztreecss = fs.readFileSync('../public/zTree_v3/metroStyle.css','utf8')
+    data = data.replace('{{my-md.css}}',mdcss)
+    data = data.replace('{{custom.js}}',cusjs)
+    data = data.replace('{{ztree.css}}',ztreecss)
+    fs.writeFileSync('../../../OmniMarkupPreviewer/templates/github-export.tpl', data)
+    console.log('over')
+})

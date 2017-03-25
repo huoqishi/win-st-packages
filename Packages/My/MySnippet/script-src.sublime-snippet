@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<script src="${1:}"></script>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ssrc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.html|text.html.basic</scope>
+</snippet>

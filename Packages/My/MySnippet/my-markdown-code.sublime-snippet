@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+```
+	${1:}
+```
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>codes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- Ctrl+Shift+Alt+P 查看文件的scope-->
+	<scope>text.html.markdown</scope>
+	<descripbe>```</descripbe>
+</snippet>

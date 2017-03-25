@@ -1,0 +1,14 @@
+﻿<snippet>
+	<content><![CDATA[
+[TOC]
+
+<style> .toc{position:fixed;z-index:999;left:0;top:0px;bottom:5px;padding:15px  0 0 0;border-top-right-radius:5px;border-bottom-right-radius:5px;width:250px;overflow:auto;background-color:#fff;border:1px solid #ccc;}.tocul{position:absolute;hgieht:100%;overflow:auto} .toc a{color:#333 !important;font-weight:600}</style>
+<script>function myq(arg){return document.querySelector(arg);}</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>toc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- Ctrl+Shift+Alt+P 查看文件的scope-->
+	<scope>text.html.markdown</scope>
+	<descripbe>生成目录</descripbe>
+</snippet>
